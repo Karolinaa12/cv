@@ -1,5 +1,6 @@
 body {
-  background-color: #ededed;
+  background-color: #202020;
+  font-family: "Roboto Mono", monospace;
 }
 
 h1,
@@ -11,5 +12,16 @@ h5 {
 }
 
 p {
-  font-family: "Roboto Mono", monospace;
+}
+
+.container.main {
+  background-color: #ededed;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 36px;
 }
