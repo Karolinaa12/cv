@@ -1,6 +1,7 @@
 body {
   background-color: #202020;
   font-family: "Roboto Mono", monospace;
+  font-size: 0.8rem;
 }
 
 h1,
@@ -8,20 +9,45 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Bebas Neue", cursive;
+  margin: 0;
 }
 
 p {
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
 .container.main {
   background-color: #ededed;
   margin: 50px auto;
-  padding: 20px;
+  padding: 0 40px;
+  max-width: 700px;
 }
 
 .vertical {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-size: 36px;
+  font-size: 1.5rem;
+}
+
+.education {
+  margin-top: 1.5rem;
+}
+
+.education h3 {
+  font-size: 0.9rem;
+}
+
+.education-paragraph {
+  margin: 1rem auto;
+}
+
+.summary {
+  margin-top: 1.25rem;
 }
