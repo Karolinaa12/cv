@@ -64,3 +64,17 @@ li {
   margin: 0;
   padding: 0;
 }
+
+.logo {
+  height: 2.5rem;
+  margin-right: 0.1rem;
+}
+
+.logo.git {
+  height: 2.2rem;
+}
+
+.logos,
+.logo.jira {
+  height: 3rem;
+}
