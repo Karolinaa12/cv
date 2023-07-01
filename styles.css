@@ -11,6 +11,7 @@ h2 {
 }
 
 p {
+  margin-bottom: 0;
 }
 
 h1 {
@@ -21,10 +22,24 @@ h2 {
   font-size: 1rem;
 }
 
+a {
+  text-decoration: none;
+  color: #202020;
+}
+
+a:hover {
+  color: #202020ad;
+}
+
+i {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
 .container.main {
   background-color: #ffffff;
-  margin: 50px auto;
-  padding: 0 40px;
+  margin: 0.5rem auto;
+  padding: 0 2rem;
   max-width: 900px;
 }
 
@@ -34,25 +49,17 @@ h2 {
   font-size: 1.5rem;
 }
 
-.education {
-  margin-top: 1.5rem;
-}
-
 .education h3 {
   font-size: 0.9rem;
   margin: 0;
 }
 
-.education-paragraph {
-  margin: 1rem auto;
-}
-
-.summary {
-  margin-top: 1.25rem;
+.paragraph {
+  margin-bottom: 0.5rem;
 }
 
 .personal-info {
-  padding-top: 10rem;
+  padding-top: 9rem;
 }
 
 .bold {
