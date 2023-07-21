@@ -89,3 +89,13 @@ li {
 .my-photo {
   height: 20rem;
 }
+
+@media (max-width: 768px) {
+  .personal-info {
+    padding-top: 1rem;
+  }
+  .col-photo {
+    justify-content: end;
+    display: flex;
+  }
+}
