@@ -98,4 +98,8 @@ li {
     justify-content: end;
     display: flex;
   }
+  .col-md,
+  .paragraph {
+    margin-bottom: 1.5rem;
+  }
 }
