@@ -59,7 +59,7 @@ i {
 }
 
 .personal-info {
-  padding-top: 9rem;
+  padding-top: 5rem;
 }
 
 .bold {
@@ -88,6 +88,11 @@ li {
 
 .my-photo {
   height: 20rem;
+}
+
+img.qr-code {
+  width: 30%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
